@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "about": "About",
+    "actions": "Our Actions",
+    "partnerships": "Our Partnerships",
+    "mission": "Our Mission",
+    "members": "Our Members",
+    "support": "Support Us"
+  },
+  "home": {
+    "hero_title": "Welcome to the adventure of solidarity",
+    "hero_subtitle": "Every child deserves a chance to access education",
+    "cta_discover": "Discover our actions",
+    "cta_donate": "Make a donation",
+    "mission_title": "Our mission in 3 actions",
+    "mission_kits_title": "School Kits",
+    "mission_kits_desc": "Annual distribution of complete school supplies to children in need so they can study in the best conditions.",
+    "mission_coaching_title": "Youth Coaching",
+    "mission_coaching_desc": "Potential awakening sessions to help young people develop their skills and believe in their future.",
+    "mission_meals_title": "Meal Distribution",
+    "mission_meals_desc": "Meals distributed to people on the streets, because solidarity starts with basic needs.",
+    "stats_title": "Our impact in numbers",
+    "stats_children": "Children helped",
+    "stats_years": "Years of action",
+    "stats_partners": "Partners",
+    "stats_meals": "Meals distributed",
+    "recent_actions_title": "Our latest actions",
+    "recent_actions_subtitle": "Discover what we have accomplished together",
+    "view_all_actions": "View all our actions",
+    "donate_title": "Together, let's make a difference",
+    "donate_subtitle": "Your donation, however small, changes a child's life. Join our community of solidarity.",
+    "donate_cta": "Donate now"
+  },
+  "about": {
+    "title": "About SOLIDARITY",
+    "description": "SOLIDARITY is a non-profit organization based in Cameroon, committed to the education and well-being of vulnerable children. We act concretely to remove the obstacles that hinder their academic success: distribution of school supplies, educational support, cultural and sports activities, awareness actions and advocacy for the protection of children's rights. Our conviction is simple: every child deserves a fair chance to succeed. Thanks to the solidarity of our members, partners and donors, we build a lasting impact in service of children and their future.",
+    "founder_title": "Our founder's story",
+    "founder_story": "This project was divinely inspired to me. Hebrews 13: 1-2 — Keep on loving one another as brothers and sisters. Do not forget to show hospitality to strangers, for by so doing some people have shown hospitality to angels without knowing it.\n\nI come from a family of 5, the youngest and unfortunately fatherless since the age of 14. From my adolescence until I was 24, I had the grace of being supported by close family friends. School, basic needs, etc… I was not in an orphanage but I needed this support.\n\nWith hindsight, I later measured how lucky I was to have such good people around me. So I decided to do the same.\n\nAs soon as I got my first job, I started helping children. It started with 2, then 52 and today hundreds of children in need receive school kits every year. This is possible thanks to the many donations from my friends, family and acquaintances.",
+    "vision_title": "Our vision",
+    "vision_text": "Support the education of millions of Cameroonian children.",
+    "mission_title": "Our mission",
+    "mission_text": "The mission of SOLIDARITY is to contribute to improving the living and learning conditions of vulnerable children in Cameroon.",
+    "values_title": "Our values",
+    "value_solidarity": "Solidarity",
+    "value_engagement": "Commitment",
+    "value_transparency": "Transparency",
+    "value_social": "Social Responsibility"
+  },
+  "actions": {
+    "title": "Our Actions",
+    "subtitle": "Every action counts. Together, we make a difference.",
+    "kits_title": "School Kit Distributions",
+    "kits_desc": "Every year, we distribute complete school kits to enrolled children who need them. These kits include notebooks, pens, rulers, and all the materials needed for a successful school year.",
+    "coaching_title": "Youth Coaching",
+    "coaching_desc": "Our potential awakening sessions help young people discover their talents, strengthen their self-confidence and develop skills for their future.",
+    "meals_title": "Meal Distribution",
+    "meals_desc": "Because no one should go to bed hungry, we organize meal distributions to people in precarious situations on the streets of Douala.",
+    "gallery_title": "Photo Gallery",
+    "no_actions": "No actions at the moment."
+  },
+  "partnerships": {
+    "title": "Our Partnerships",
+    "subtitle": "Solidarity also means joining forces for greater impact.",
+    "current_title": "Our current partners",
+    "born_to_shine_desc": "Born To Shine is our associative partner with whom we share the same vision: giving children the best chances of success.",
+    "join_title": "Become a partner",
+    "join_desc": "Are you a company, association or organization that shares our values? Join our network of partners and help change lives.",
+    "join_cta": "Contact us"
+  },
+  "mission": {
+    "title": "Our Mission",
+    "subtitle": "Every day, many children face difficulties that hinder their academic journey.",
+    "content": "SOLIDARITY acts to remove these obstacles through:",
+    "action1": "Free distribution of school supplies",
+    "action2": "Organization of educational support programs",
+    "action3": "Implementation of cultural, sports and fulfillment activities",
+    "action4": "Awareness and advocacy actions in favor of children's rights",
+    "approach_title": "Our approach",
+    "approach_text": "We adopt a human, inclusive and sustainable approach. Every child is unique, every situation deserves special attention. It is with this mindset that we build, day after day, a better future for Cameroonian children."
+  },
+  "members": {
+    "title": "Our Members",
+    "subtitle": "Committed people, united by the same conviction.",
+    "bureau_title": "Board Members",
+    "sympathizers_title": "Supporters",
+    "volunteers_title": "Volunteers",
+    "no_members": "No members at the moment."
+  },
+  "support": {
+    "title": "Join the adventure of solidarity",
+    "subtitle": "There are many ways to support us. Every gesture counts.",
+    "form_title": "Become a supporter",
+    "form_name": "Full name",
+    "form_email": "Email",
+    "form_phone": "Phone",
+    "form_message": "How would you like to support us?",
+    "form_type_volunteer": "Become a volunteer",
+    "form_type_donate": "Make a donation",
+    "form_type_partner": "Partnership",
+    "form_submit": "Send",
+    "form_success": "Thank you for your message! We will contact you soon.",
+    "form_error": "An error occurred. Please try again.",
+    "donate_title": "Make a donation",
+    "donate_subtitle": "Your donation is secured via CinetPay (MTN/Orange Mobile Money + Visa)",
+    "donate_button": "Make a donation",
+    "donate_amounts": "Suggested amounts (FCFA)"
+  },
+  "footer": {
+    "location": "Douala, Cameroon",
+    "copyright": "© 2025 Association Solidarity. All rights reserved.",
+    "about_col": "About",
+    "actions_col": "Our Actions",
+    "contact_col": "Contact",
+    "reports_col": "Activity Reports",
+    "follow_us": "Follow us",
+    "tagline": "Every child deserves a chance."
+  },
+  "common": {
+    "learn_more": "Learn more",
+    "back_home": "Back to home",
+    "loading": "Loading...",
+    "donate": "Make a donation"
+  },
+  "not_found": {
+    "title": "Page not found",
+    "message": "Like a child searching for their path, this page has gotten lost. But every path leads to a destination.",
+    "cta": "Return to home"
+  }
+}

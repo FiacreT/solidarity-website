@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "about": "À propos",
+    "actions": "Nos actions",
+    "partnerships": "Nos partenariats",
+    "mission": "Notre mission",
+    "members": "Nos membres",
+    "support": "Soutenir"
+  },
+  "home": {
+    "hero_title": "Bienvenue dans l'aventure de la solidarité",
+    "hero_subtitle": "Chaque enfant mérite une chance d'accès à l'éducation",
+    "cta_discover": "Découvrir nos actions",
+    "cta_donate": "Faire un don",
+    "mission_title": "Notre mission en 3 actions",
+    "mission_kits_title": "Kits scolaires",
+    "mission_kits_desc": "Distribution annuelle de matériel scolaire complet aux enfants dans le besoin pour qu'ils puissent étudier dans les meilleures conditions.",
+    "mission_coaching_title": "Coaching jeunes",
+    "mission_coaching_desc": "Des séances d'éveil du potentiel pour aider les jeunes à développer leurs compétences et à croire en leur avenir.",
+    "mission_meals_title": "Distribution de repas",
+    "mission_meals_desc": "Des repas distribués aux personnes dans la rue, parce que la solidarité commence par les besoins fondamentaux.",
+    "stats_title": "Notre impact en chiffres",
+    "stats_children": "Enfants aidés",
+    "stats_years": "Années d'action",
+    "stats_partners": "Partenaires",
+    "stats_meals": "Repas distribués",
+    "recent_actions_title": "Nos dernières actions",
+    "recent_actions_subtitle": "Découvrez ce que nous avons accompli ensemble",
+    "view_all_actions": "Voir toutes nos actions",
+    "donate_title": "Ensemble, faisons la différence",
+    "donate_subtitle": "Votre don, aussi petit soit-il, change la vie d'un enfant. Rejoignez notre communauté de solidarité.",
+    "donate_cta": "Faire un don maintenant"
+  },
+  "about": {
+    "title": "À propos de SOLIDARITY",
+    "description": "SOLIDARITY est une association à but non lucratif basée au Cameroun, engagée pour l'éducation et le bien-être des enfants en situation de vulnérabilité. Nous agissons concrètement pour lever les obstacles qui freinent leur réussite scolaire : distribution de matériel scolaire, soutien éducatif, activités culturelles et sportives, actions de sensibilisation et plaidoyer pour la protection des droits de l'enfant. Notre conviction est simple : chaque enfant mérite une chance équitable de réussir. Grâce à la solidarité de nos membres, partenaires et donateurs, nous construisons un impact durable au service des enfants et de leur avenir.",
+    "founder_title": "L'histoire de notre fondatrice",
+    "founder_story": "Ce projet m'a été divinement inspiré. Hébreux 13 : 1-2 — Persévérez dans l'amour fraternel. N'oubliez pas l'hospitalité; car, en l'exerçant, quelques-uns ont logé des anges, sans le savoir.\n\nJe suis issue d'une famille de 5, la benjamine et malheureusement orpheline de père depuis l'âge de 14 ans. De mon adolescence jusqu'à mes 24 ans, j'ai eu la grâce d'être soutenue par des amis proches de la famille. L'école, les besoins basiques etc… je n'étais pas dans un orphelinat mais j'avais besoin de cet accompagnement.\n\nAvec du recul, plus tard j'ai mesuré la chance que j'ai eue d'avoir de si bonnes personnes autour de moi. Alors j'ai décidé de faire pareil.\n\nAussitôt un premier emploi contracté, j'ai commencé par aider des enfants. Ça a commencé par 2, puis 52 et aujourd'hui des centaines d'enfants dans le besoin bénéficient des kits scolaires chaque année. Ceci est possible grâce aux nombreuses donations de mes amis, ma famille et des connaissances.",
+    "vision_title": "Notre vision",
+    "vision_text": "Soutenir la scolarisation des millions d'enfants Camerounais.",
+    "mission_title": "Notre mission",
+    "mission_text": "La mission de SOLIDARITY est de contribuer à l'amélioration des conditions de vie et d'apprentissage des enfants en situation de vulnérabilité au Cameroun.",
+    "values_title": "Nos valeurs",
+    "value_solidarity": "Solidarité",
+    "value_engagement": "Engagement",
+    "value_transparency": "Transparence",
+    "value_social": "Responsabilité sociale"
+  },
+  "actions": {
+    "title": "Nos actions",
+    "subtitle": "Chaque action compte. Ensemble, nous faisons la différence.",
+    "kits_title": "Distributions de kits scolaires",
+    "kits_desc": "Chaque année, nous distribuons des kits scolaires complets aux enfants scolarisés qui en ont besoin. Ces kits comprennent cahiers, stylos, règles, et tout le matériel nécessaire pour une année scolaire réussie.",
+    "coaching_title": "Coaching jeunes",
+    "coaching_desc": "Nos séances d'éveil du potentiel aident les jeunes à découvrir leurs talents, à renforcer leur confiance en eux et à développer des compétences pour leur avenir.",
+    "meals_title": "Distribution de repas",
+    "meals_desc": "Parce que personne ne devrait aller se coucher le ventre vide, nous organisons des distributions de repas aux personnes en situation de précarité dans les rues de Douala.",
+    "gallery_title": "Galerie photos",
+    "no_actions": "Aucune action pour le moment."
+  },
+  "partnerships": {
+    "title": "Nos partenariats",
+    "subtitle": "La solidarité, c'est aussi unir les forces pour un impact plus grand.",
+    "current_title": "Nos partenaires actuels",
+    "born_to_shine_desc": "Born To Shine est notre partenaire associatif avec qui nous partageons la même vision : offrir aux enfants les meilleures chances de réussir.",
+    "join_title": "Devenez partenaire",
+    "join_desc": "Vous êtes une entreprise, une association ou une organisation qui partage nos valeurs ? Rejoignez notre réseau de partenaires et contribuez à changer des vies.",
+    "join_cta": "Nous contacter"
+  },
+  "mission": {
+    "title": "Notre mission",
+    "subtitle": "Chaque jour, de nombreux enfants font face à des difficultés qui freinent leur parcours scolaire.",
+    "content": "SOLIDARITY agit pour lever ces obstacles à travers :",
+    "action1": "La distribution gratuite de matériel scolaire",
+    "action2": "L'organisation de programmes de soutien éducatif",
+    "action3": "La mise en place d'activités culturelles, sportives et d'épanouissement",
+    "action4": "Des actions de sensibilisation et de plaidoyer en faveur des droits de l'enfant",
+    "approach_title": "Notre approche",
+    "approach_text": "Nous adoptons une approche humaine, inclusive et durable. Chaque enfant est unique, chaque situation mérite une attention particulière. C'est avec cet état d'esprit que nous construisons, jour après jour, un avenir meilleur pour les enfants camerounais."
+  },
+  "members": {
+    "title": "Nos membres",
+    "subtitle": "Des personnes engagées, unies par une même conviction.",
+    "bureau_title": "Membres du bureau",
+    "sympathizers_title": "Sympathisants",
+    "volunteers_title": "Bénévoles",
+    "no_members": "Aucun membre pour le moment."
+  },
+  "support": {
+    "title": "Rejoignez l'aventure de la solidarité",
+    "subtitle": "Il existe de nombreuses façons de nous soutenir. Chaque geste compte.",
+    "form_title": "Devenez sympathisant",
+    "form_name": "Nom complet",
+    "form_email": "Email",
+    "form_phone": "Téléphone",
+    "form_message": "Comment souhaitez-vous nous soutenir ?",
+    "form_type_volunteer": "Devenir bénévole",
+    "form_type_donate": "Faire un don",
+    "form_type_partner": "Partenariat",
+    "form_submit": "Envoyer",
+    "form_success": "Merci pour votre message ! Nous vous contacterons bientôt.",
+    "form_error": "Une erreur s'est produite. Veuillez réessayer.",
+    "donate_title": "Faire un don",
+    "donate_subtitle": "Votre don est sécurisé via CinetPay (Mobile Money MTN/Orange + Visa)",
+    "donate_button": "Faire un don",
+    "donate_amounts": "Montants suggérés (FCFA)"
+  },
+  "footer": {
+    "location": "Douala, Cameroun",
+    "copyright": "© 2025 Association Solidarity. Tous droits réservés.",
+    "about_col": "À propos",
+    "actions_col": "Nos actions",
+    "contact_col": "Contact",
+    "reports_col": "Rapports d'activités",
+    "follow_us": "Suivez-nous",
+    "tagline": "Chaque enfant mérite une chance."
+  },
+  "common": {
+    "learn_more": "En savoir plus",
+    "back_home": "Retour à l'accueil",
+    "loading": "Chargement...",
+    "donate": "Faire un don"
+  },
+  "not_found": {
+    "title": "Page introuvable",
+    "message": "Comme un enfant qui cherche son chemin, cette page s'est égarée. Mais chaque chemin mène à une destination.",
+    "cta": "Retourner à l'accueil"
+  }
+}
