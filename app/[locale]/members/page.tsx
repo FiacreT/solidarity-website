@@ -1,8 +1,13 @@
 import type { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import SectionTitle from '@/components/ui/SectionTitle';
 import MemberCard from '@/components/members/MemberCard';
 import { getMembers } from '@/lib/sanity/queries';
+
+export function generateStaticParams() {
+  return [{ locale: 'fr' }, { locale: 'en' }];
+}
 
 export const metadata: Metadata = {
   title: 'Nos membres — Solidarity',
@@ -68,6 +73,7 @@ export default async function MembersPage({
 }: {
   params: { locale: string };
 }) {
+  setRequestLocale(locale);
   let membersByStatus: Record<string, any[]> = {};
 
   try {

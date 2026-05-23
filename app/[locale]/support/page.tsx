@@ -1,8 +1,13 @@
 import type { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import SectionTitle from '@/components/ui/SectionTitle';
 import SupportForm from '@/components/support/SupportForm';
 import DonationButton from '@/components/support/DonationButton';
+
+export function generateStaticParams() {
+  return [{ locale: 'fr' }, { locale: 'en' }];
+}
 import { Heart, Shield, Smartphone } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -95,6 +100,7 @@ function SupportContent() {
   );
 }
 
-export default function SupportPage() {
+export default function SupportPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   return <SupportContent />;
 }

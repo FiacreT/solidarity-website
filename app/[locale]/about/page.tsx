@@ -1,7 +1,12 @@
 import type { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import SectionTitle from '@/components/ui/SectionTitle';
 import { Heart, Eye, Target, Star } from 'lucide-react';
+
+export function generateStaticParams() {
+  return [{ locale: 'fr' }, { locale: 'en' }];
+}
 
 export const metadata: Metadata = {
   title: 'À propos — Solidarity',
@@ -119,6 +124,7 @@ function AboutContent() {
   );
 }
 
-export default function AboutPage() {
+export default function AboutPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   return <AboutContent />;
 }

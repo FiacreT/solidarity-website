@@ -1,8 +1,13 @@
 import type { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import { BookOpen, Lightbulb, Utensils } from 'lucide-react';
 import SectionTitle from '@/components/ui/SectionTitle';
 import ActionCard from '@/components/actions/ActionCard';
+
+export function generateStaticParams() {
+  return [{ locale: 'fr' }, { locale: 'en' }];
+}
 import MediaGallery from '@/components/actions/MediaGallery';
 import { getActions } from '@/lib/sanity/queries';
 
@@ -103,6 +108,7 @@ export default async function ActionsPage({
 }: {
   params: { locale: string };
 }) {
+  setRequestLocale(locale);
   let actionsByCategory: Record<string, any[]> = {};
 
   try {

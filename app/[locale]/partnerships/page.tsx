@@ -1,8 +1,13 @@
 import type { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ExternalLink, Handshake } from 'lucide-react';
+
+export function generateStaticParams() {
+  return [{ locale: 'fr' }, { locale: 'en' }];
+}
 import SectionTitle from '@/components/ui/SectionTitle';
 import { getPartners } from '@/lib/sanity/queries';
 import { urlFor } from '@/lib/sanity/image';
@@ -127,6 +132,7 @@ export default async function PartnershipsPage({
 }: {
   params: { locale: string };
 }) {
+  setRequestLocale(locale);
   let partners: any[] = [];
   try {
     partners = await getPartners();

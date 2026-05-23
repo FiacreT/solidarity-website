@@ -1,7 +1,12 @@
 import type { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import { CheckCircle, Users } from 'lucide-react';
 import SectionTitle from '@/components/ui/SectionTitle';
+
+export function generateStaticParams() {
+  return [{ locale: 'fr' }, { locale: 'en' }];
+}
 
 export const metadata: Metadata = {
   title: 'Notre mission — Solidarity',
@@ -76,6 +81,7 @@ function MissionContent() {
   );
 }
 
-export default function MissionPage() {
+export default function MissionPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   return <MissionContent />;
 }
