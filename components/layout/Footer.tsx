@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getTranslations, getLocale } from 'next-intl/server';
 import { MapPin, Heart } from 'lucide-react';
 import { getReports } from '@/lib/sanity/queries';
@@ -21,11 +22,14 @@ export default async function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Brand column */}
           <div className="lg:col-span-1">
-            <Link
-              href={`/${locale}`}
-              className="font-heading text-2xl font-bold text-primary"
-            >
-              SOLIDARITY
+            <Link href={`/${locale}`} className="flex items-center">
+              <Image
+                src="/logo.png"
+                alt="Association Solidarity"
+                width={80}
+                height={80}
+                className="object-contain brightness-0 invert"
+              />
             </Link>
             <p className="mt-3 font-body text-stone-400 text-sm leading-relaxed">
               {t('tagline')}

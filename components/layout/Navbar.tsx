@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import { Menu, X, Heart } from 'lucide-react';
 import LanguageSwitcher from '@/components/ui/LanguageSwitcher';
@@ -37,11 +38,15 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <Link
-            href={`/${locale}`}
-            className="font-heading text-2xl font-bold text-primary tracking-tight hover:text-primary-dark transition-colors"
-          >
-            SOLIDARITY
+          <Link href={`/${locale}`} className="flex items-center">
+            <Image
+              src="/logo.png"
+              alt="Association Solidarity"
+              width={64}
+              height={64}
+              className="object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop nav */}
